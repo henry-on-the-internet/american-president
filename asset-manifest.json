@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/american-president/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/american-president/static/js/main.fe8be1d2.chunk.js",
+    "main.js.map": "/american-president/static/js/main.fe8be1d2.chunk.js.map",
+    "runtime-main.js": "/american-president/static/js/runtime-main.defe1b33.js",
+    "runtime-main.js.map": "/american-president/static/js/runtime-main.defe1b33.js.map",
+    "static/js/2.560d6c75.chunk.js": "/american-president/static/js/2.560d6c75.chunk.js",
+    "static/js/2.560d6c75.chunk.js.map": "/american-president/static/js/2.560d6c75.chunk.js.map",
+    "static/js/3.4c61d4f9.chunk.js": "/american-president/static/js/3.4c61d4f9.chunk.js",
+    "static/js/3.4c61d4f9.chunk.js.map": "/american-president/static/js/3.4c61d4f9.chunk.js.map",
+    "index.html": "/american-president/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/american-president/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.560d6c75.chunk.js.LICENSE.txt": "/american-president/static/js/2.560d6c75.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/american-president/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.defe1b33.js",
+    "static/js/2.560d6c75.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.fe8be1d2.chunk.js"
+  ]
+}
