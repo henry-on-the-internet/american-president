@@ -1,6 +1,6 @@
-import Tooltip from './ui/tooltip';
-import Dropdown from './ui/dropdown';
-import Timeline from './ui/timeline';
+import Tooltip from './ninja-ui/tooltip';
+import Dropdown from './ninja-ui/dropdown';
+import Timeline from './ninja-ui/timeline';
 
 console.log("test");
 //create a tooltip

@@ -1,43 +1,114 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UI Library</title>
+  <style>
+    body{ font-size: 1.5em;}
+    .container{ margin: 40px; margin-top: 60px;}
+    ul.gallery{display:block;}
+    li.gallerybox{display: inline-block;vertical-align: top;}
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>President of the United States</h1>
+    <hr/>
+    <p style="text-align: justify;">
+      <div style="float: right;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/599px-Seal_of_the_President_of_the_United_States.svg.png" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;"></div>
+      The president of the United States is the head of state and head of government of the 
+      <span class="tooltip" data-message="located in North America">United States of America</span>.
+      The president directs the executive branch of the
+      <span class="tooltip" data-message="composed of 50 states">federal government </span> 
+      and is the commander-in-chief of the United States Armed Forces.
+      <br/><br/>
+      The president is elected indirectly through the Electoral College to a four-year term, along with the vice president. 
+    </p>
+    
+    <h2>You may want to know</h2>
+    <div class="dropdown">
+      <div class="trigger"> Compensation </div>
+      <div class="content">
+        <ul>
+          <li>Annual salary: $400,000</li> 
+          <li>Expense allowance: $50,000</li>
+          <li>Travel account:$100,000 </li>
+          <li>Entertainment account: $19,000</li>
+        </ul>
+    </div>
+    <div class="dropdown">
+      <div class="trigger"> Presidential residences </div>
+      <div class="content">
+        <ul>
+          <li>White House, the official residence</li> 
+          <li>Camp David, the official retreat </li>
+          <li>Blair House, the official guest house </li>
+        </ul>
+    </div>
+    <div class="dropdown">
+      <div class="trigger"> Presidential transportation</div>
+      <div class="content">
+        <ul class="gallery" style="text-align: center;">
+          <li class="gallerycaption">Presidential transportation</li>
+            <li class="gallerybox" style="width: 219.333px;"><div style="width: 219.333px;">
+              <div class="thumb" style="width: 218px;"><div style="margin:0px auto;"><a href="/wiki/File:GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg/326px-GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg" decoding="async" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg/490px-GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg/653px-GPA02-09_US_SecretService_press_release_2009_Limousine_Page_3_Image.jpg 2x" data-file-width="1264" data-file-height="872" width="218" height="150"></a></div></div>
+              <div class="gallerytext">
+        <p>The presidential limousine</a>
+        </p>
+              </div>
+            </div></li>
+            <li class="gallerybox" style="width: 188.667px;"><div style="width: 188.667px;">
+              <div class="thumb" style="width: 187px;"><div style="margin:0px auto;"><a href="/wiki/File:Air_Force_One_over_Mt._Rushmore.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Air_Force_One_over_Mt._Rushmore.jpg/280px-Air_Force_One_over_Mt._Rushmore.jpg" decoding="async" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Air_Force_One_over_Mt._Rushmore.jpg/420px-Air_Force_One_over_Mt._Rushmore.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Air_Force_One_over_Mt._Rushmore.jpg/560px-Air_Force_One_over_Mt._Rushmore.jpg 2x" data-file-width="1900" data-file-height="1528" width="187" height="150"></a></div></div>
+              <div class="gallerytext">
+        <p>Air Force One
+        </p>
+              </div>
+            </div></li>
+            <li class="gallerybox" style="width: 231.333px;"><div style="width: 231.333px;">
+              <div class="thumb" style="width: 230px;"><div style="margin:0px auto;"><a href="/wiki/File:HMX-1_Mrine_One_VH-3.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/HMX-1_Mrine_One_VH-3.jpg/344px-HMX-1_Mrine_One_VH-3.jpg" decoding="async" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/HMX-1_Mrine_One_VH-3.jpg/517px-HMX-1_Mrine_One_VH-3.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/HMX-1_Mrine_One_VH-3.jpg/688px-HMX-1_Mrine_One_VH-3.jpg 2x" data-file-width="799" data-file-height="523" width="230" height="150"></a></div></div>
+              <div class="gallerytext">
+        <p>Marine One helicopter</p>
+              </div>
+            </div></li>
+        </ul>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    </div>
+    <div class="dropdown">
+      <div class="trigger"> Protection</div>
+      <div class="content">
+        <ul>
+          <li>Protected by The U.S. Secret Service</li> 
+          <li>First family: President, first lady, their children and other immediate family members</li>
+        </ul>
+    </div>
+  <div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h4>Timeline of presidents</h4>
+        <ul class="timeline">
+          <li>
+            Donald Trump
+            <div style="float: right;">January 20, 2009 – January 20, 2017</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+          </li>
+          <li>
+            Barack Obama 
+            <div style="float: right;">January 20, 2009 – January 20, 2017</div>
+            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+          </li>
+          <li>
+            George W. Bush
+            <div style="float: right;">January 20, 2001 – January 20, 2009</div>
+            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
 </html>
